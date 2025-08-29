@@ -288,7 +288,7 @@ while True:
     screen.blit(level_text, (10,150))
     damage_text = font.render('Damage bonus:' + str(player_damage_bonus), True, (255, 255, 255))
     screen.blit(damage_text,(10,200))
-    bullets.update()  # Update bullet positions
+    bullets.update()  #Update bullet positions
     bullets.draw(screen)
     current_time = pygame.time.get_ticks()
     if BOSS_BATTLE and not boss_spawned:
@@ -329,4 +329,5 @@ while True:
                 sys.exit()
     #if u reading this u r awesome I love you
     #displayupdate
+
     pygame.display.update()
