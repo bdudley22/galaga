@@ -1,0 +1,21 @@
+
+__pycache__/
+*.pyc
+
+#PyCharm
+.idea/
+
+#Windows metadata
+*.pyd
+*.dll
+*.exe
+*.m4a:Zone.Identifier
+*_bz2.pyd
+*_decimal.pyd
+*_hashlib.pyd
+*_socket.pyd
+
+#Build folders
+build/
+dist/
+*.spec
